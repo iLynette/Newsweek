@@ -1,0 +1,16 @@
+.nav-top {
+    height: 90px;
+    overflow: hidden;
+}
+.logo {
+    width: 365px;
+    outline: none;
+    margin-bottom: -10px;
+}
+.subscribe {
+    background-color: yellow;
+}
+.nav-link {
+    color: black;
+    font-weight: bolder;
+}
