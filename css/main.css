@@ -1,16 +1,84 @@
 .nav-top {
     height: 90px;
     overflow: hidden;
+    background-color: #f72210;
 }
 .logo {
     width: 365px;
     outline: none;
-    margin-bottom: -10px;
 }
-.subscribe {
-    background-color: yellow;
+.badge {
+    font-size: 1.4em;
 }
 .nav-link {
     color: black;
-    font-weight: bolder;
+    font-weight: 700;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    color: black;
+}
+.story {
+    font-size: 0.8em;
+    line-height: 1em;
+}
+.story img {
+    position: relative;
+    width: 100%;
+}
+.story .story-type {
+    color: red;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: -23px 0 0 0;
+    position: absolute;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+}
+.small-story img {
+    height: 180px;
+    width: 100%;   
+}
+.story-types {
+    color: black;
+    background-color: rgb(160, 156, 156);
+    margin: -38px 0 0 0;
+    position: absolute;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+}
+.smaller-story {
+    margin-top: 20px;
+    border-bottom: 1px solid lightslategray;
+}
+.smaller-story img {
+    height: 100%;
+}
+.policy {
+    font-size: .90em;
+    border-top: 2px solid lightslategray;
+    border-bottom: 3px solid lightslategray;
+    padding-top: 10px;
+}
+.policy img {
+    width: 60px;
+    height: 60px;
+}
+.vs {
+    width: 27px;
+    height: 27px;
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+    text-align: center;
+    left: 45%;
+    margin-top: -10px;
+    color: white;
+}
+.opinion {
+    font-size: .90em;
+    border-bottom: 1px solid lightslategray;
+}
+.opinion img {
+    width: 60px;
+    height: 60px;
 }
