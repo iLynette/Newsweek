@@ -38,6 +38,9 @@
     height: 180px;
     width: 100%;   
 }
+.sit {
+    padding-bottom: 40px;
+}
 .story-types {
     color: black;
     background-color: rgb(160, 156, 156);
@@ -56,7 +59,7 @@
 .names {
     color: red;
     padding-top: 30px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     border-top: 1px solid grey;
 }
 .dol {
@@ -111,7 +114,6 @@
 }
 .heading {
     margin-bottom: 5px;
-    
 }
 .red-logo {
     margin-right: 10px;
