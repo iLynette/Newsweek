@@ -46,6 +46,13 @@
     padding: 5px 10px 5px 10px;
     font-size: 18px;
 }
+.mate {
+    background: white;
+    color: red;
+}
+.name {
+    font-size: 1.5em;
+}
 .smaller-story {
     margin-top: 20px;
     border-bottom: 1px solid lightslategray;
@@ -81,4 +88,28 @@
 .opinion img {
     width: 60px;
     height: 60px;
+}
+.editors-pick {
+    padding-top: 20px;
+    width: 100%;
+}
+.heading {
+    margin-bottom: 5px;
+    
+}
+.red-logo {
+    margin-right: 10px;
+}
+
+.article img {
+    width: 100%;
+}
+.joe {
+    background-color: red;
+    color: white;
+    display: inline-block;
+}
+.biden {
+    color: red;
+    display: inline-block;
 }
