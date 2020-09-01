@@ -53,6 +53,22 @@
 .name {
     font-size: 1.5em;
 }
+.names {
+    color: red;
+    padding-top: 30px;
+    font-size: 1.5em;
+    border-top: 1px solid grey;
+}
+.dol {
+    padding-bottom: 40px;
+}
+.aim {
+    padding-left: 20px;
+    border-top: 1px solid grey;
+}
+.pic {
+    height: 90px; 
+}
 .smaller-story {
     margin-top: 20px;
     border-bottom: 1px solid lightslategray;
