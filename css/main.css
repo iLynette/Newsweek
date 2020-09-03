@@ -131,3 +131,47 @@
     color: red;
     display: inline-block;
 }
+.met {
+    margin-top: 20px;
+    margin-left: -90px;
+    position: absolute;
+    padding-bottom: 20px;
+}
+.sub {
+    margin-left: 10px;
+    font-size: 1em;
+}
+.ticc {
+    width: 200px;
+    height: 300px;
+    padding-bottom: 20px;
+}
+.words {
+    width: 220px;
+}
+.side {
+    display: flex;
+    flex-direction: row;
+}
+.aside {
+    width: 200px;
+    
+}
+.words {
+    padding-left: 100px;
+    height: 18  0px;
+}
+.sign-in {
+    width: 150px;
+}
+.wh {
+    font-size: 1.2em;
+}
+.we {
+    font-size: 2em;
+    color: #f72210 !important;
+}
+.whoo {
+    line-height: 1;
+}
+

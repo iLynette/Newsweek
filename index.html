@@ -6,6 +6,7 @@
   <title>Newsweek</title>
   <link rel="stylesheet" href="./css/bootstrap.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -13,8 +14,8 @@
     <!--Navigation bar-->
     <header>
       <nav class="mb-1">
-        <div class="nav-top text-white py-3 px-3 d-flex flex-row justify-content-between align-items-end">
-          <div class="pl-3 d-none d-lg-block">
+        <div class="nav-top text-white py-3 px-3 d-flex flex-row justify-content-between">
+          <div class="pl-3 d-sm-none d-lg-block">
             <div class="date">
               <p class="font-weight-bold">sat,aug 29,2020</p>
             </div>
@@ -22,12 +23,12 @@
           <a class="text-white" href="#"><img class="logo" src="./images/logo.png"></a>
           <div class="d-flex flex-row align-items-center">
             <a class="text-white font-weight-bold d-flex align-items-center" href="">
-              <p class="mb-0 d-none d-sm-block">LOGIN</p>
+              <p class="mb-0 d-none d-lg-block">LOGIN</p>
             </a>
             <a href="#" class="badge badge-pill badge-warning px-3 py-2 ml-3">SUBSCRIBE OFFERS</a>
           </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="navbarResponsive">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
           </button> 
@@ -687,11 +688,131 @@
           </div>
         </div>
       </div>
-
-      
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row mt-4 ml-2">
+        <div class="col-8 mt-2">
+          <h6 class="font-weight-bold pt-3 text-danger">SUBSCRIBE</h6>
+          <div class="row py-4 bg-light">
+            <div class="col-5">
+              <img class="pl-4" src="./images/two.jpg">
+              <img class="mb-4 met" src="./images/one.jpg">
+            </div>
+            <div class="col-6 text-md-left py-4">
+              <h5 class="font-weight-bold text-capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione distinctio, vel fugit doloribus?</h5>
+              <p class="text-capitalize "><span>Lorem, ipsum dolor.+ Lorem, ipsum. <br> Lorem ipsum dolor sit amet consectetur adipisicing.</span></p>
+              <h6><span class="badge badge-danger sub">SUBSCRIBE</span></h6>
+            </div>
+          </div>
+        </div> 
+        <!--aside section-->  
+        <div class="aside">
+          <div class="font-weight-bold text-danger">
+            <p class="wod">NEWSLETTER</p>
+          </div>
+            <div class="side">
+              <div class="col-7 py-2">
+                <img class="ticc" src="./images/last.png">
+              </div> 
+              <div class="col-5 py-2">
+                <div class="words">
+                <h5 class="text-capitalize font-weight-bold pt-4">The starting 5</h5>
+                <p class="whoo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, pariatur?</p>
+              </div>
+            
+              <form action="#" class="sign-up-form words">
+                <input type="email" class="sign-in" placeholder="Email address">
+                <p><span class="badge badge-danger mt-4 wh">FREE SIGN UP</span></p>
+              </form>
+            </div>
+        </div>
+      </div>
+      </div>
     </div>
   </main>
+  <footer class="border-top px-4 p-2">
+    <div class="d-md-flex justify-content-between">
+      <div class="d-flex d-md-left align-items-end mb-1 py-4">
+        <a href="#" class="text-danger font-weight-bold we">NEWSWEEK</a>
+        <span class="d-md-flex align-items-end text-muted pb-2 pl-2">© 2020 newsweek</span>
+      </div>
+      <div class="d-flex align-items-end pb-4">
+        <a href="#" class="mr-2"><i class="fab fa-facebook text-dark"></i></a>
+        <a href="#" class="mr-2"><i class="fab fa-twitter text-dark"></i></a>
+        <a href="#" class="mr-2"><i class="fab fa-instagram text-dark"></i></a>
+        <a href="#" class="mr-2"><i class="fab fa-tumblr text-dark"></i></a>
+        <a href="#" class="mr-2"><i class="fab fa-linkedin-in text-dark"></i></a>
+      </div>
+    </div>
+
+    <div class="border-top pt-1 pb-3 align-items-end">
+      <div class="d-flex">
+        <span class="text-capitalize mt-1 pt-1 font-weight-bold mr-2 text-secondary">editions:</span>
+        <ul class="nav items">
+          <li class="nav-item pr-2 border-right">
+            <a class="text-secondary text-capitalize font-weight-light nav-link" href="#">U.S edition</a>
+          </li>
+          <li class="nav-item pr-2 border-right">
+            <a class="text-secondary text-capitalize font-weight-light nav-link" href="#">日本</a>
+          </li>
+          <li class="nav-item pr-2 border-right">
+            <a class="text-secondary text-capitalize font-weight-light nav-link" href="#">polska</a>
+          </li>
+          <li class="nav-item pr-2 border-right">
+            <a class="text-secondary text-capitalize font-weight-light nav-link" href="#">romania</a>
+          </li>
+          <li class="nav-item pr-2">
+            <a class="text-secondary text-capitalize font-weight-light nav-link" href="#">pidgin</a>
+          </li>
+        </ul>
+      </div>
+
+      
+        <ul class="nav-footer-links list-unstyled footers d-flex justify-content-between">
+          <li class="nav-foot pr-2 border-right">
+            <a class="text-capitalize text-secondary" href="#">about us</a>
+          </li>
+          <li class="nav-foot pr-2 border-right">
+            <a class="text-capitalize text-secondary" href="#">about us</a>
+          </li>
+          <li class="nav-foot pr-2 border-right">
+            <a class="text-capitalize text-secondary" href="#">about us</a>
+          </li>
+          <li class="nav-foot pr-2 border-right">
+            <a class="text-capitalize text-secondary" href="#">about us</a>
+          </li>
+          <li class="nav-foot pr-2 border-right">
+            <a class="text-capitalize text-secondary" href="#">about us</a>
+          </li>
+          <li class="nav-foot pr-2 border-right">
+            <a class="text-capitalize text-secondary" href="#">about us</a>
+          </li>
+          <li class="nav-foot pr-2 border-right">
+            <a class="text-capitalize text-secondary" href="#">about us</a>
+          </li>
+          <li class="nav-foot pr-2 border-right">
+            <a class="text-capitalize text-secondary" href="#">about us</a>
+          </li>
+          <li class="nav-foot pr-2 border-right">
+            <a class="text-capitalize text-secondary" href="#">about us</a>
+          </li>
+          <li class="nav-foot pr-2 border-right">
+            <a class="text-capitalize text-secondary" href="#">about us</a>
+          </li>
+          <li class="nav-foot pr-2 border-right">
+            <a class="text-capitalize text-secondary" href="#">about us</a>
+          </li>
+          <li class="nav-foot pr-2 border-right">
+            <a class="text-capitalize text-secondary" href="#">about us</a>
+          </li>
+          <li class="nav-foot pr-2 border-right">
+            <a class="text-capitalize text-secondary" href="#">about us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
   <script src="./js/bootstrap.js"></script>
 </body>
 </html>
-
